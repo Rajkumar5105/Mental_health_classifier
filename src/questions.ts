@@ -1,0 +1,30 @@
+export const questions = [
+  "Are you feeling nervous?",
+  "Feeling of panic?",
+  "Breathing rapidly?",
+  "Excessive sweating?",
+  "Trouble in concentration?",
+  "Sleeping well?",
+  "Having trouble with work?",
+  "Feeling hopelessness?",
+  "Feeling easily annoyed?",
+  "Started overreacting?",
+  "Change in eating?",
+  "Having suicidal thoughts?",
+  "Always feeling tired?",
+  "Have close friend?",
+  "Social media addiction?",
+  "Weight gain?",
+  "Material possessions?",
+  "Introvert person?",
+  "Stressful memories?",
+  "Having nightmares?",
+  "Avoids people or activities?",
+  "Feeling negative?",
+  "Trouble concentrating?",
+  "Blaming yourself?"
+].map((text, id) => ({
+  id,
+  text,
+  answer: null
+}));
